@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+body {
+    background-image: linear-gradient(to right, #0b08b6, #25128f, #2a176a, #271947, #1e1926);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 600;
+    
+}
+
+.main {
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #fcfaf9;
+    width: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 75px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    font-size: 30px;
+}
+
+.home a img{
+    padding-top: 7px;
+    width: 150px;
+    height: 150px;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(249, 255, 255);
+}
+
+nav {
+    text-align: right;
+    flex: 1;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li :hover {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #25128f;
+    font-size: 23px;
+}
+
+.about {
+    padding: 4rem 2% 1.4rem;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+.about h2 span{
+    color: rgb(23, 7, 238);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    float: right;
+    
+    
+    
+}
+.about .row{
+    display: flex;
+}
+.about .row .about-img{
+    flex: 1 1 45rem;
+}
+.about .row .about-img{
+    width: 100%;
+}
+.about .row .content{
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+.about .row .content{
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.6rem;
+    padding-left: 80%;
+}
+.about .row{
+    flex-wrap: wrap;
+}
+
+footer {
+    color: #CDC9C3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    margin-top: 500px;
+}

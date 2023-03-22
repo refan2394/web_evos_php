@@ -1,0 +1,107 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+body {
+    background-image: linear-gradient(to bottom, #0b08b6, #25128f, #2a176a, #000000, #000000);
+    /* background: linear-gradient(to top,#000000,#0b08b6); */
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 600;
+}
+
+.main {
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #fcfaf9;
+    width: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 75px;
+    
+    display: flex;
+    align-items: center;
+}
+.home {
+    font-size: 30px;
+}
+.home a img{
+    padding-top: 7px;
+    width: 150px;
+    height: 150px;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(249, 255, 255);
+}
+
+.home :hover {
+    color: rgb(24, 158, 192);
+}
+
+
+nav {
+    text-align: right;
+    flex: 1;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li :hover {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #25128f;
+    font-size: 23px;
+}
+
+nav ul li a span{
+    font-size: 30px;
+}
+
+.konten h2 {
+    margin-top: 80px;
+    color: #CDC9C3;
+    margin-left: 127px;
+}
+
+.konten .nim {
+    margin-top: 20px;
+    color: #CDC9C3;
+    font-size: 100px;
+    margin-left: 120px;
+}
+
+.konten .gambar img {
+    width: 40%;
+    float: right;
+    /* margin-top: -80px; */
+    position: relative;
+    bottom: 199px;
+    margin-right: 127px;
+    margin-top: 0px;
+}
+
+footer {
+    color: #CDC9C3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    margin-top: 234px;
+
+}
